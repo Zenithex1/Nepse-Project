@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets (API keys, passwords)
+.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Saved models (optional, remove if you want to share them)
+*.pickle
+*.pkl
+
+# Large or private data (optional)
+data/raw/
+*.zip
+
+# VS Code and OS files
+.vscode/
+.DS_Store
+Thumbs.db
