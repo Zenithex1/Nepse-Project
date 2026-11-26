@@ -2,6 +2,10 @@
 .venv/
 venv/
 
+# Large dataset
+nepal/notebooks/nepse_prices.csv
+
+
 # Python temporary files
 __pycache__/
 *.pyc
@@ -26,3 +30,5 @@ data/raw/
 .vscode/
 .DS_Store
 Thumbs.db
+
+data
